@@ -21,6 +21,10 @@ div.image {
 	text-align: center;
 }
 
+.resizePic {
+	width: 80%;
+}
+
 .prodDescription {
 	text-align: justify;
 	margin: 5px;
