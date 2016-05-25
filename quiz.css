@@ -1,0 +1,111 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+	width: 30%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	margin: 10px;
+}
+
+h1 {
+	border: 1px dotted lightgray;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px;
+}
+
+div.image {
+	margin: auto;
+	text-align: center;
+}
+
+.resizePic {
+	width: 80%;
+}
+
+.prodDescription {
+	text-align: justify;
+	margin: 5px;
+	font-size: 14px;
+
+}
+
+.productSpecifications div{
+	font-size: 12px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.productSpecifications header h2 {
+	margin: 0 0 0 8px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.productSpecifications footer p {
+	margin: 0;
+	font-size: 10px;
+}
+
+.prodAvail {
+	width: 100%;
+	background-color: gray;
+	color: yellow;
+	text-align: left;
+	font-size: 14px;
+	margin: 10px 0;
+	padding: 5px 0;
+}
+
+.prodAvail p {
+	margin: 0 0 0 5px;
+}
+
+.pricing {
+	margin-left: 0px;
+}
+
+.pricing header h3 {
+	margin: 0 0 0 8px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.pricing div p{
+	font-weight: bold;
+	margin: 0 0 0 15px;
+	font-size: 12px;
+}
+
+/*Each card should be an article.
+Each card should take up 30% of the width of the browser window.
+Each product should contain a header element that, itself, contains an h1 element where the product's title will be written.
+Each product should have three sections.
+The first section should contain three child block elements.
+The first element contains the product image.
+The second element contains the product description.
+The third element contains the product availability (e.g. "Available" or "Not Available")
+The second section contains product specifications.
+This section should have a header containing the word "Specifications"
+This section should contain two block elements
+The first block element specifies the size.
+The second block element specifies the weight.
+This section should contain a footer.
+The footer contains text stating when the product specifications become invalid.
+The third section contains the product pricing.
+This section should contain a header.
+This section should contain three block elements.
+Each block element contains information about the price for different quantities.
+Additional style requirements
+
+The entire card has a solid 1px border that is lightblue.
+The card title has a dotted 1px border that is lightgray.
+The title and product image are centered.
+Notice that the text for the description in the image is justified.
+The text for the product specification details and pricing details is bold.
+The availability element extends the full width of the card, with a dark grey background and yellow text.
+Visual example
+
+Here's an image that shows how the cards should appear.*/
